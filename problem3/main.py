@@ -9,7 +9,7 @@ import argparse
 import os
 import configs
 from torch.utils.tensorboard import SummaryWriter
-from models import GCN
+from models import GCN, GraphSage
 import time
 
 def init_logging(log_path):
@@ -25,7 +25,7 @@ def init_logging(log_path):
     return logger
 
 def hyperparam_concat(args):
-    if (args.model == "gcn"):
+    if (args.model in ["gcn", "graphsage"]):
         return f"{args.model}_layer{args.nlayer}_hid{args.hid}_lr{args.lr}_dropout{args.dropout}_epoch{args.epoch}"
 
 def check_exist_and_mkdir(path):
@@ -73,6 +73,10 @@ if __name__ == "__main__":
     if (args.model == "gcn"):
         model = GCN(g.ndata["feat"].shape[1], args.hid, args.nlayer, dataset.num_classes, args.dropout)
         test_model = GCN(g.ndata["feat"].shape[1], args.hid, args.nlayer, dataset.num_classes, args.dropout)
+    elif (args.model == "graphsage"):
+        model = GraphSage(g.ndata["feat"].shape[1], args.hid, args.nlayer, dataset.num_classes, args.dropout)
+        test_model = GraphSage(g.ndata["feat"].shape[1], args.hid, args.nlayer, dataset.num_classes, args.dropout)
+        
     model = model.to(device)
     test_model = test_model.to(device)
     g = g.to(device)
