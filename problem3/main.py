@@ -9,7 +9,7 @@ import argparse
 import os
 import configs
 from torch.utils.tensorboard import SummaryWriter
-from models import GCN, GraphSage
+from models import *
 import time
 
 def init_logging(log_path):
@@ -25,8 +25,10 @@ def init_logging(log_path):
     return logger
 
 def hyperparam_concat(args):
-    if (args.model in ["gcn", "graphsage"]):
+    if (args.model in ["gcn", "graphsage", "mlp"]):
         return f"{args.model}_layer{args.nlayer}_hid{args.hid}_lr{args.lr}_dropout{args.dropout}_epoch{args.epoch}"
+    if (args.model in ["gat"]):
+        return f"{args.model}_layer{args.nlayer}_hid{args.hid}_head{args.head}_lr{args.lr}_dropout{args.dropout}_epoch{args.epoch}"
 
 def check_exist_and_mkdir(path):
     if not os.path.exists(path):
@@ -42,6 +44,7 @@ if __name__ == "__main__":
     parser.add_argument("-dropout", type=float, help="dropout", default=0.0)
     parser.add_argument("-eval", type=int, help="eval frequency", default=2)
     parser.add_argument("-epoch", type=int, help="total epoch", default=100)
+    parser.add_argument("-head", type=int, help="head number(only GAT)", default=3)
     args = parser.parse_args()
     
     model_pt_root = configs.model_pt_saved_root
@@ -76,6 +79,14 @@ if __name__ == "__main__":
     elif (args.model == "graphsage"):
         model = GraphSage(g.ndata["feat"].shape[1], args.hid, args.nlayer, dataset.num_classes, args.dropout)
         test_model = GraphSage(g.ndata["feat"].shape[1], args.hid, args.nlayer, dataset.num_classes, args.dropout)
+    elif (args.model == "mlp"):
+        model = MLP(g.ndata["feat"].shape[1], args.hid, args.nlayer, dataset.num_classes, args.dropout)
+        test_model = MLP(g.ndata["feat"].shape[1], args.hid, args.nlayer, dataset.num_classes, args.dropout)
+    elif (args.model == "gat"):
+        model = GAT(g.ndata["feat"].shape[1], args.hid, args.nlayer, args.head, dataset.num_classes, args.dropout)
+        test_model = GAT(g.ndata["feat"].shape[1], args.hid, args.nlayer, args.head, dataset.num_classes, args.dropout)
+
+        
         
     model = model.to(device)
     test_model = test_model.to(device)

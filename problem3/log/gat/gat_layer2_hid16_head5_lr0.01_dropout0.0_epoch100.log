@@ -1,0 +1,213 @@
+2023-06-04 16:05:48,183 - my_logger - INFO - Number of categories:7
+2023-06-04 16:05:48,184 - my_logger - INFO - graph node data: {'feat': tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]]), 'label': tensor([3, 4, 4,  ..., 3, 3, 3]), 'test_mask': tensor([False, False, False,  ...,  True,  True,  True]), 'val_mask': tensor([False, False, False,  ..., False, False, False]), 'train_mask': tensor([ True,  True,  True,  ..., False, False, False])}
+2023-06-04 16:05:48,184 - my_logger - INFO - graph edge data: {}
+2023-06-04 16:05:48,615 - my_logger - INFO - training......
+2023-06-04 16:05:48,672 - my_logger - INFO - epoch 0, train loss: 1.9453
+2023-06-04 16:05:48,726 - my_logger - INFO - evaluating......
+2023-06-04 16:05:48,726 - my_logger - INFO - epoch 0, valid loss: 1.9481, valid acc: 9.40%
+2023-06-04 16:05:48,732 - my_logger - INFO - epoch 1, train loss: 1.9162
+2023-06-04 16:05:48,738 - my_logger - INFO - epoch 2, train loss: 1.8812
+2023-06-04 16:05:48,742 - my_logger - INFO - evaluating......
+2023-06-04 16:05:48,742 - my_logger - INFO - epoch 2, valid loss: 1.9082, valid acc: 65.60%
+2023-06-04 16:05:48,747 - my_logger - INFO - epoch 3, train loss: 1.8347
+2023-06-04 16:05:48,753 - my_logger - INFO - epoch 4, train loss: 1.7823
+2023-06-04 16:05:48,757 - my_logger - INFO - evaluating......
+2023-06-04 16:05:48,757 - my_logger - INFO - epoch 4, valid loss: 1.8630, valid acc: 69.20%
+2023-06-04 16:05:48,762 - my_logger - INFO - epoch 5, train loss: 1.7271
+2023-06-04 16:05:48,768 - my_logger - INFO - epoch 6, train loss: 1.6690
+2023-06-04 16:05:48,772 - my_logger - INFO - evaluating......
+2023-06-04 16:05:48,772 - my_logger - INFO - epoch 6, valid loss: 1.8098, valid acc: 69.80%
+2023-06-04 16:05:48,777 - my_logger - INFO - epoch 7, train loss: 1.6067
+2023-06-04 16:05:48,783 - my_logger - INFO - epoch 8, train loss: 1.5410
+2023-06-04 16:05:48,787 - my_logger - INFO - evaluating......
+2023-06-04 16:05:48,787 - my_logger - INFO - epoch 8, valid loss: 1.7398, valid acc: 72.00%
+2023-06-04 16:05:48,792 - my_logger - INFO - epoch 9, train loss: 1.4716
+2023-06-04 16:05:48,798 - my_logger - INFO - epoch 10, train loss: 1.3992
+2023-06-04 16:05:48,801 - my_logger - INFO - evaluating......
+2023-06-04 16:05:48,801 - my_logger - INFO - epoch 10, valid loss: 1.6566, valid acc: 73.60%
+2023-06-04 16:05:48,805 - my_logger - INFO - epoch 11, train loss: 1.3243
+2023-06-04 16:05:48,811 - my_logger - INFO - epoch 12, train loss: 1.2474
+2023-06-04 16:05:48,814 - my_logger - INFO - evaluating......
+2023-06-04 16:05:48,814 - my_logger - INFO - epoch 12, valid loss: 1.5655, valid acc: 75.20%
+2023-06-04 16:05:48,819 - my_logger - INFO - epoch 13, train loss: 1.1691
+2023-06-04 16:05:48,824 - my_logger - INFO - epoch 14, train loss: 1.0900
+2023-06-04 16:05:48,827 - my_logger - INFO - evaluating......
+2023-06-04 16:05:48,828 - my_logger - INFO - epoch 14, valid loss: 1.4715, valid acc: 76.20%
+2023-06-04 16:05:48,832 - my_logger - INFO - epoch 15, train loss: 1.0109
+2023-06-04 16:05:48,837 - my_logger - INFO - epoch 16, train loss: 0.9326
+2023-06-04 16:05:48,840 - my_logger - INFO - evaluating......
+2023-06-04 16:05:48,840 - my_logger - INFO - epoch 16, valid loss: 1.3768, valid acc: 76.20%
+2023-06-04 16:05:48,843 - my_logger - INFO - epoch 17, train loss: 0.8557
+2023-06-04 16:05:48,848 - my_logger - INFO - epoch 18, train loss: 0.7809
+2023-06-04 16:05:48,851 - my_logger - INFO - evaluating......
+2023-06-04 16:05:48,852 - my_logger - INFO - epoch 18, valid loss: 1.2813, valid acc: 76.20%
+2023-06-04 16:05:48,855 - my_logger - INFO - epoch 19, train loss: 0.7090
+2023-06-04 16:05:48,860 - my_logger - INFO - epoch 20, train loss: 0.6406
+2023-06-04 16:05:48,863 - my_logger - INFO - evaluating......
+2023-06-04 16:05:48,863 - my_logger - INFO - epoch 20, valid loss: 1.1870, valid acc: 76.20%
+2023-06-04 16:05:48,866 - my_logger - INFO - epoch 21, train loss: 0.5762
+2023-06-04 16:05:48,871 - my_logger - INFO - epoch 22, train loss: 0.5161
+2023-06-04 16:05:48,874 - my_logger - INFO - evaluating......
+2023-06-04 16:05:48,875 - my_logger - INFO - epoch 22, valid loss: 1.1010, valid acc: 76.80%
+2023-06-04 16:05:48,879 - my_logger - INFO - epoch 23, train loss: 0.4607
+2023-06-04 16:05:48,885 - my_logger - INFO - epoch 24, train loss: 0.4098
+2023-06-04 16:05:48,888 - my_logger - INFO - evaluating......
+2023-06-04 16:05:48,888 - my_logger - INFO - epoch 24, valid loss: 1.0273, valid acc: 76.40%
+2023-06-04 16:05:48,891 - my_logger - INFO - epoch 25, train loss: 0.3636
+2023-06-04 16:05:48,896 - my_logger - INFO - epoch 26, train loss: 0.3218
+2023-06-04 16:05:48,900 - my_logger - INFO - evaluating......
+2023-06-04 16:05:48,900 - my_logger - INFO - epoch 26, valid loss: 0.9680, valid acc: 75.60%
+2023-06-04 16:05:48,904 - my_logger - INFO - epoch 27, train loss: 0.2842
+2023-06-04 16:05:48,910 - my_logger - INFO - epoch 28, train loss: 0.2507
+2023-06-04 16:05:48,914 - my_logger - INFO - evaluating......
+2023-06-04 16:05:48,914 - my_logger - INFO - epoch 28, valid loss: 0.9223, valid acc: 75.40%
+2023-06-04 16:05:48,917 - my_logger - INFO - epoch 29, train loss: 0.2206
+2023-06-04 16:05:48,923 - my_logger - INFO - epoch 30, train loss: 0.1939
+2023-06-04 16:05:48,926 - my_logger - INFO - evaluating......
+2023-06-04 16:05:48,926 - my_logger - INFO - epoch 30, valid loss: 0.8903, valid acc: 75.20%
+2023-06-04 16:05:48,930 - my_logger - INFO - epoch 31, train loss: 0.1701
+2023-06-04 16:05:48,935 - my_logger - INFO - epoch 32, train loss: 0.1490
+2023-06-04 16:05:48,939 - my_logger - INFO - evaluating......
+2023-06-04 16:05:48,939 - my_logger - INFO - epoch 32, valid loss: 0.8700, valid acc: 75.60%
+2023-06-04 16:05:48,943 - my_logger - INFO - epoch 33, train loss: 0.1304
+2023-06-04 16:05:48,948 - my_logger - INFO - epoch 34, train loss: 0.1140
+2023-06-04 16:05:48,951 - my_logger - INFO - evaluating......
+2023-06-04 16:05:48,951 - my_logger - INFO - epoch 34, valid loss: 0.8619, valid acc: 74.80%
+2023-06-04 16:05:48,954 - my_logger - INFO - epoch 35, train loss: 0.0997
+2023-06-04 16:05:48,959 - my_logger - INFO - epoch 36, train loss: 0.0871
+2023-06-04 16:05:48,962 - my_logger - INFO - evaluating......
+2023-06-04 16:05:48,963 - my_logger - INFO - epoch 36, valid loss: 0.8634, valid acc: 74.20%
+2023-06-04 16:05:48,966 - my_logger - INFO - epoch 37, train loss: 0.0761
+2023-06-04 16:05:48,971 - my_logger - INFO - epoch 38, train loss: 0.0666
+2023-06-04 16:05:48,974 - my_logger - INFO - evaluating......
+2023-06-04 16:05:48,974 - my_logger - INFO - epoch 38, valid loss: 0.8712, valid acc: 73.80%
+2023-06-04 16:05:48,977 - my_logger - INFO - epoch 39, train loss: 0.0582
+2023-06-04 16:05:48,983 - my_logger - INFO - epoch 40, train loss: 0.0510
+2023-06-04 16:05:48,986 - my_logger - INFO - evaluating......
+2023-06-04 16:05:48,987 - my_logger - INFO - epoch 40, valid loss: 0.8824, valid acc: 73.80%
+2023-06-04 16:05:48,990 - my_logger - INFO - epoch 41, train loss: 0.0448
+2023-06-04 16:05:48,995 - my_logger - INFO - epoch 42, train loss: 0.0394
+2023-06-04 16:05:48,999 - my_logger - INFO - evaluating......
+2023-06-04 16:05:48,999 - my_logger - INFO - epoch 42, valid loss: 0.8949, valid acc: 73.60%
+2023-06-04 16:05:49,002 - my_logger - INFO - epoch 43, train loss: 0.0347
+2023-06-04 16:05:49,007 - my_logger - INFO - epoch 44, train loss: 0.0306
+2023-06-04 16:05:49,010 - my_logger - INFO - evaluating......
+2023-06-04 16:05:49,010 - my_logger - INFO - epoch 44, valid loss: 0.9079, valid acc: 73.20%
+2023-06-04 16:05:49,014 - my_logger - INFO - epoch 45, train loss: 0.0272
+2023-06-04 16:05:49,019 - my_logger - INFO - epoch 46, train loss: 0.0241
+2023-06-04 16:05:49,023 - my_logger - INFO - evaluating......
+2023-06-04 16:05:49,023 - my_logger - INFO - epoch 46, valid loss: 0.9212, valid acc: 73.00%
+2023-06-04 16:05:49,026 - my_logger - INFO - epoch 47, train loss: 0.0214
+2023-06-04 16:05:49,032 - my_logger - INFO - epoch 48, train loss: 0.0191
+2023-06-04 16:05:49,035 - my_logger - INFO - evaluating......
+2023-06-04 16:05:49,035 - my_logger - INFO - epoch 48, valid loss: 0.9365, valid acc: 73.00%
+2023-06-04 16:05:49,038 - my_logger - INFO - epoch 49, train loss: 0.0171
+2023-06-04 16:05:49,043 - my_logger - INFO - epoch 50, train loss: 0.0154
+2023-06-04 16:05:49,046 - my_logger - INFO - evaluating......
+2023-06-04 16:05:49,047 - my_logger - INFO - epoch 50, valid loss: 0.9537, valid acc: 73.00%
+2023-06-04 16:05:49,050 - my_logger - INFO - epoch 51, train loss: 0.0139
+2023-06-04 16:05:49,055 - my_logger - INFO - epoch 52, train loss: 0.0127
+2023-06-04 16:05:49,058 - my_logger - INFO - evaluating......
+2023-06-04 16:05:49,058 - my_logger - INFO - epoch 52, valid loss: 0.9727, valid acc: 73.00%
+2023-06-04 16:05:49,061 - my_logger - INFO - epoch 53, train loss: 0.0116
+2023-06-04 16:05:49,066 - my_logger - INFO - epoch 54, train loss: 0.0107
+2023-06-04 16:05:49,070 - my_logger - INFO - evaluating......
+2023-06-04 16:05:49,070 - my_logger - INFO - epoch 54, valid loss: 0.9913, valid acc: 73.20%
+2023-06-04 16:05:49,073 - my_logger - INFO - epoch 55, train loss: 0.0099
+2023-06-04 16:05:49,078 - my_logger - INFO - epoch 56, train loss: 0.0092
+2023-06-04 16:05:49,081 - my_logger - INFO - evaluating......
+2023-06-04 16:05:49,082 - my_logger - INFO - epoch 56, valid loss: 1.0072, valid acc: 73.20%
+2023-06-04 16:05:49,084 - my_logger - INFO - epoch 57, train loss: 0.0086
+2023-06-04 16:05:49,090 - my_logger - INFO - epoch 58, train loss: 0.0080
+2023-06-04 16:05:49,093 - my_logger - INFO - evaluating......
+2023-06-04 16:05:49,093 - my_logger - INFO - epoch 58, valid loss: 1.0197, valid acc: 73.40%
+2023-06-04 16:05:49,096 - my_logger - INFO - epoch 59, train loss: 0.0075
+2023-06-04 16:05:49,101 - my_logger - INFO - epoch 60, train loss: 0.0071
+2023-06-04 16:05:49,104 - my_logger - INFO - evaluating......
+2023-06-04 16:05:49,104 - my_logger - INFO - epoch 60, valid loss: 1.0289, valid acc: 73.20%
+2023-06-04 16:05:49,107 - my_logger - INFO - epoch 61, train loss: 0.0067
+2023-06-04 16:05:49,112 - my_logger - INFO - epoch 62, train loss: 0.0064
+2023-06-04 16:05:49,115 - my_logger - INFO - evaluating......
+2023-06-04 16:05:49,116 - my_logger - INFO - epoch 62, valid loss: 1.0352, valid acc: 73.00%
+2023-06-04 16:05:49,119 - my_logger - INFO - epoch 63, train loss: 0.0060
+2023-06-04 16:05:49,124 - my_logger - INFO - epoch 64, train loss: 0.0057
+2023-06-04 16:05:49,127 - my_logger - INFO - evaluating......
+2023-06-04 16:05:49,127 - my_logger - INFO - epoch 64, valid loss: 1.0396, valid acc: 73.20%
+2023-06-04 16:05:49,130 - my_logger - INFO - epoch 65, train loss: 0.0055
+2023-06-04 16:05:49,135 - my_logger - INFO - epoch 66, train loss: 0.0052
+2023-06-04 16:05:49,138 - my_logger - INFO - evaluating......
+2023-06-04 16:05:49,138 - my_logger - INFO - epoch 66, valid loss: 1.0429, valid acc: 73.60%
+2023-06-04 16:05:49,141 - my_logger - INFO - epoch 67, train loss: 0.0050
+2023-06-04 16:05:49,146 - my_logger - INFO - epoch 68, train loss: 0.0048
+2023-06-04 16:05:49,149 - my_logger - INFO - evaluating......
+2023-06-04 16:05:49,150 - my_logger - INFO - epoch 68, valid loss: 1.0459, valid acc: 73.60%
+2023-06-04 16:05:49,152 - my_logger - INFO - epoch 69, train loss: 0.0046
+2023-06-04 16:05:49,158 - my_logger - INFO - epoch 70, train loss: 0.0044
+2023-06-04 16:05:49,161 - my_logger - INFO - evaluating......
+2023-06-04 16:05:49,161 - my_logger - INFO - epoch 70, valid loss: 1.0491, valid acc: 73.60%
+2023-06-04 16:05:49,164 - my_logger - INFO - epoch 71, train loss: 0.0043
+2023-06-04 16:05:49,170 - my_logger - INFO - epoch 72, train loss: 0.0041
+2023-06-04 16:05:49,173 - my_logger - INFO - evaluating......
+2023-06-04 16:05:49,173 - my_logger - INFO - epoch 72, valid loss: 1.0528, valid acc: 73.40%
+2023-06-04 16:05:49,176 - my_logger - INFO - epoch 73, train loss: 0.0040
+2023-06-04 16:05:49,182 - my_logger - INFO - epoch 74, train loss: 0.0038
+2023-06-04 16:05:49,185 - my_logger - INFO - evaluating......
+2023-06-04 16:05:49,185 - my_logger - INFO - epoch 74, valid loss: 1.0571, valid acc: 73.40%
+2023-06-04 16:05:49,188 - my_logger - INFO - epoch 75, train loss: 0.0037
+2023-06-04 16:05:49,194 - my_logger - INFO - epoch 76, train loss: 0.0036
+2023-06-04 16:05:49,197 - my_logger - INFO - evaluating......
+2023-06-04 16:05:49,197 - my_logger - INFO - epoch 76, valid loss: 1.0620, valid acc: 73.60%
+2023-06-04 16:05:49,200 - my_logger - INFO - epoch 77, train loss: 0.0035
+2023-06-04 16:05:49,205 - my_logger - INFO - epoch 78, train loss: 0.0034
+2023-06-04 16:05:49,209 - my_logger - INFO - evaluating......
+2023-06-04 16:05:49,209 - my_logger - INFO - epoch 78, valid loss: 1.0674, valid acc: 73.40%
+2023-06-04 16:05:49,212 - my_logger - INFO - epoch 79, train loss: 0.0033
+2023-06-04 16:05:49,217 - my_logger - INFO - epoch 80, train loss: 0.0032
+2023-06-04 16:05:49,220 - my_logger - INFO - evaluating......
+2023-06-04 16:05:49,220 - my_logger - INFO - epoch 80, valid loss: 1.0732, valid acc: 73.20%
+2023-06-04 16:05:49,223 - my_logger - INFO - epoch 81, train loss: 0.0031
+2023-06-04 16:05:49,228 - my_logger - INFO - epoch 82, train loss: 0.0031
+2023-06-04 16:05:49,231 - my_logger - INFO - evaluating......
+2023-06-04 16:05:49,232 - my_logger - INFO - epoch 82, valid loss: 1.0790, valid acc: 73.20%
+2023-06-04 16:05:49,235 - my_logger - INFO - epoch 83, train loss: 0.0030
+2023-06-04 16:05:49,240 - my_logger - INFO - epoch 84, train loss: 0.0029
+2023-06-04 16:05:49,243 - my_logger - INFO - evaluating......
+2023-06-04 16:05:49,243 - my_logger - INFO - epoch 84, valid loss: 1.0846, valid acc: 73.20%
+2023-06-04 16:05:49,246 - my_logger - INFO - epoch 85, train loss: 0.0029
+2023-06-04 16:05:49,251 - my_logger - INFO - epoch 86, train loss: 0.0028
+2023-06-04 16:05:49,254 - my_logger - INFO - evaluating......
+2023-06-04 16:05:49,255 - my_logger - INFO - epoch 86, valid loss: 1.0900, valid acc: 73.00%
+2023-06-04 16:05:49,258 - my_logger - INFO - epoch 87, train loss: 0.0027
+2023-06-04 16:05:49,263 - my_logger - INFO - epoch 88, train loss: 0.0027
+2023-06-04 16:05:49,266 - my_logger - INFO - evaluating......
+2023-06-04 16:05:49,266 - my_logger - INFO - epoch 88, valid loss: 1.0948, valid acc: 73.00%
+2023-06-04 16:05:49,269 - my_logger - INFO - epoch 89, train loss: 0.0026
+2023-06-04 16:05:49,275 - my_logger - INFO - epoch 90, train loss: 0.0026
+2023-06-04 16:05:49,278 - my_logger - INFO - evaluating......
+2023-06-04 16:05:49,279 - my_logger - INFO - epoch 90, valid loss: 1.0992, valid acc: 73.00%
+2023-06-04 16:05:49,283 - my_logger - INFO - epoch 91, train loss: 0.0025
+2023-06-04 16:05:49,289 - my_logger - INFO - epoch 92, train loss: 0.0025
+2023-06-04 16:05:49,293 - my_logger - INFO - evaluating......
+2023-06-04 16:05:49,293 - my_logger - INFO - epoch 92, valid loss: 1.1031, valid acc: 73.00%
+2023-06-04 16:05:49,296 - my_logger - INFO - epoch 93, train loss: 0.0024
+2023-06-04 16:05:49,302 - my_logger - INFO - epoch 94, train loss: 0.0024
+2023-06-04 16:05:49,305 - my_logger - INFO - evaluating......
+2023-06-04 16:05:49,305 - my_logger - INFO - epoch 94, valid loss: 1.1066, valid acc: 73.00%
+2023-06-04 16:05:49,308 - my_logger - INFO - epoch 95, train loss: 0.0024
+2023-06-04 16:05:49,314 - my_logger - INFO - epoch 96, train loss: 0.0023
+2023-06-04 16:05:49,317 - my_logger - INFO - evaluating......
+2023-06-04 16:05:49,317 - my_logger - INFO - epoch 96, valid loss: 1.1096, valid acc: 73.00%
+2023-06-04 16:05:49,320 - my_logger - INFO - epoch 97, train loss: 0.0023
+2023-06-04 16:05:49,325 - my_logger - INFO - epoch 98, train loss: 0.0022
+2023-06-04 16:05:49,328 - my_logger - INFO - evaluating......
+2023-06-04 16:05:49,329 - my_logger - INFO - epoch 98, valid loss: 1.1124, valid acc: 73.00%
+2023-06-04 16:05:49,332 - my_logger - INFO - epoch 99, train loss: 0.0022
+2023-06-04 16:05:49,334 - my_logger - INFO - total train time used: 0.7187s
+2023-06-04 16:05:49,334 - my_logger - INFO - testing......
+2023-06-04 16:05:49,339 - my_logger - INFO - test acc: 76.90%
