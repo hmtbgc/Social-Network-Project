@@ -1,0 +1,33 @@
+2023-06-05 12:21:46,114 - my_logger - INFO - Number of categories:7
+2023-06-05 12:21:46,116 - my_logger - INFO - graph node data: {'feat': tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]]), 'label': tensor([3, 4, 4,  ..., 3, 3, 3]), 'test_mask': tensor([False, False, False,  ...,  True,  True,  True]), 'val_mask': tensor([False, False, False,  ..., False, False, False]), 'train_mask': tensor([ True,  True,  True,  ..., False, False, False])}
+2023-06-05 12:21:46,116 - my_logger - INFO - graph edge data: {}
+2023-06-05 12:21:46,121 - my_logger - INFO - training......
+2023-06-05 12:21:51,639 - my_logger - INFO - epoch 0, train loss: 3.6622
+2023-06-05 12:21:57,026 - my_logger - INFO - epoch 1, train loss: 2.9229
+2023-06-05 12:22:02,501 - my_logger - INFO - epoch 2, train loss: 2.5054
+2023-06-05 12:22:07,765 - my_logger - INFO - epoch 3, train loss: 1.8097
+2023-06-05 12:22:13,228 - my_logger - INFO - epoch 4, train loss: 1.3417
+2023-06-05 12:22:18,595 - my_logger - INFO - epoch 5, train loss: 1.1585
+2023-06-05 12:22:24,048 - my_logger - INFO - epoch 6, train loss: 1.0919
+2023-06-05 12:22:29,375 - my_logger - INFO - epoch 7, train loss: 1.0548
+2023-06-05 12:22:34,980 - my_logger - INFO - epoch 8, train loss: 1.0237
+2023-06-05 12:22:40,297 - my_logger - INFO - epoch 9, train loss: 1.0087
+2023-06-05 12:22:45,813 - my_logger - INFO - epoch 10, train loss: 0.9816
+2023-06-05 12:22:51,141 - my_logger - INFO - epoch 11, train loss: 0.9542
+2023-06-05 12:22:56,520 - my_logger - INFO - epoch 12, train loss: 0.9547
+2023-06-05 12:23:01,964 - my_logger - INFO - epoch 13, train loss: 0.9368
+2023-06-05 12:23:07,364 - my_logger - INFO - epoch 14, train loss: 0.9421
+2023-06-05 12:23:12,672 - my_logger - INFO - epoch 15, train loss: 0.9348
+2023-06-05 12:23:18,069 - my_logger - INFO - epoch 16, train loss: 0.9179
+2023-06-05 12:23:23,403 - my_logger - INFO - epoch 17, train loss: 0.9105
+2023-06-05 12:23:28,647 - my_logger - INFO - epoch 18, train loss: 0.9002
+2023-06-05 12:23:34,247 - my_logger - INFO - epoch 19, train loss: 0.9073
+2023-06-05 12:23:34,259 - my_logger - INFO - total train time used: 108.1378s
+2023-06-05 12:23:34,259 - my_logger - INFO - testing......
+2023-06-05 12:23:34,260 - my_logger - INFO - test acc: 69.20%
