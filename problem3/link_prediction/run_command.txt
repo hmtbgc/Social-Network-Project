@@ -1,0 +1,5 @@
+python main_gnn.py -model gcn -device cuda:0 -lr 0.01 -hid 16 -out 16 -edge_combine dot -nlayer 2 -dropout 0.0 -eval 2 -epoch 200 
+
+python main_deepwalk.py -model deepwalk -lr 0.01 -emb 128 -length 40 -window 5 -neg_size 5 -edge_combine dot -first_epoch 5 -second_epoch 200 
+
+python main_deepwalk.py -model node2vec -lr 0.01 -emb 128 -length 40 -window 5 -neg_size 5 -edge_combine dot -first_epoch 5 -second_epoch 200 -p 4 -q 0.5

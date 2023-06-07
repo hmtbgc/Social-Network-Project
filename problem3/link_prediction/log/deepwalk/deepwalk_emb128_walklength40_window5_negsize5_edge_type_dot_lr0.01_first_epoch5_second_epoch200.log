@@ -1,0 +1,409 @@
+2023-06-07 16:44:56,371 - my_logger - INFO - training......
+2023-06-07 16:45:01,770 - my_logger - INFO - epoch 0, first phase train loss: 3.7167
+2023-06-07 16:45:06,939 - my_logger - INFO - epoch 1, first phase train loss: 2.9311
+2023-06-07 16:45:12,414 - my_logger - INFO - epoch 2, first phase train loss: 2.4927
+2023-06-07 16:45:17,653 - my_logger - INFO - epoch 3, first phase train loss: 1.8335
+2023-06-07 16:45:22,958 - my_logger - INFO - epoch 4, first phase train loss: 1.3503
+2023-06-07 16:45:22,961 - my_logger - INFO - epoch 0, second phase train loss: 1.1164
+2023-06-07 16:45:22,964 - my_logger - INFO - evaluating......
+2023-06-07 16:45:22,964 - my_logger - INFO - epoch 0, valid loss: 1.1056, valid auc: 91.72%
+2023-06-07 16:45:22,965 - my_logger - INFO - epoch 1, second phase train loss: 1.0984
+2023-06-07 16:45:22,967 - my_logger - INFO - epoch 2, second phase train loss: 1.0806
+2023-06-07 16:45:22,969 - my_logger - INFO - evaluating......
+2023-06-07 16:45:22,969 - my_logger - INFO - epoch 2, valid loss: 1.0696, valid auc: 91.72%
+2023-06-07 16:45:22,970 - my_logger - INFO - epoch 3, second phase train loss: 1.0628
+2023-06-07 16:45:22,972 - my_logger - INFO - epoch 4, second phase train loss: 1.0452
+2023-06-07 16:45:22,974 - my_logger - INFO - evaluating......
+2023-06-07 16:45:22,974 - my_logger - INFO - epoch 4, valid loss: 1.0342, valid auc: 91.72%
+2023-06-07 16:45:22,975 - my_logger - INFO - epoch 5, second phase train loss: 1.0278
+2023-06-07 16:45:22,976 - my_logger - INFO - epoch 6, second phase train loss: 1.0105
+2023-06-07 16:45:22,978 - my_logger - INFO - evaluating......
+2023-06-07 16:45:22,978 - my_logger - INFO - epoch 6, valid loss: 0.9994, valid auc: 91.72%
+2023-06-07 16:45:22,979 - my_logger - INFO - epoch 7, second phase train loss: 0.9935
+2023-06-07 16:45:22,981 - my_logger - INFO - epoch 8, second phase train loss: 0.9766
+2023-06-07 16:45:22,983 - my_logger - INFO - evaluating......
+2023-06-07 16:45:22,983 - my_logger - INFO - epoch 8, valid loss: 0.9655, valid auc: 91.72%
+2023-06-07 16:45:22,984 - my_logger - INFO - epoch 9, second phase train loss: 0.9599
+2023-06-07 16:45:22,985 - my_logger - INFO - epoch 10, second phase train loss: 0.9435
+2023-06-07 16:45:22,987 - my_logger - INFO - evaluating......
+2023-06-07 16:45:22,988 - my_logger - INFO - epoch 10, valid loss: 0.9325, valid auc: 91.72%
+2023-06-07 16:45:22,989 - my_logger - INFO - epoch 11, second phase train loss: 0.9273
+2023-06-07 16:45:22,990 - my_logger - INFO - epoch 12, second phase train loss: 0.9114
+2023-06-07 16:45:22,992 - my_logger - INFO - evaluating......
+2023-06-07 16:45:22,992 - my_logger - INFO - epoch 12, valid loss: 0.9005, valid auc: 91.72%
+2023-06-07 16:45:22,993 - my_logger - INFO - epoch 13, second phase train loss: 0.8957
+2023-06-07 16:45:22,995 - my_logger - INFO - epoch 14, second phase train loss: 0.8803
+2023-06-07 16:45:22,997 - my_logger - INFO - evaluating......
+2023-06-07 16:45:22,997 - my_logger - INFO - epoch 14, valid loss: 0.8697, valid auc: 91.72%
+2023-06-07 16:45:22,998 - my_logger - INFO - epoch 15, second phase train loss: 0.8653
+2023-06-07 16:45:22,999 - my_logger - INFO - epoch 16, second phase train loss: 0.8506
+2023-06-07 16:45:23,001 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,001 - my_logger - INFO - epoch 16, valid loss: 0.8403, valid auc: 91.72%
+2023-06-07 16:45:23,002 - my_logger - INFO - epoch 17, second phase train loss: 0.8363
+2023-06-07 16:45:23,004 - my_logger - INFO - epoch 18, second phase train loss: 0.8224
+2023-06-07 16:45:23,006 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,006 - my_logger - INFO - epoch 18, valid loss: 0.8124, valid auc: 91.72%
+2023-06-07 16:45:23,007 - my_logger - INFO - epoch 19, second phase train loss: 0.8088
+2023-06-07 16:45:23,008 - my_logger - INFO - epoch 20, second phase train loss: 0.7958
+2023-06-07 16:45:23,010 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,010 - my_logger - INFO - epoch 20, valid loss: 0.7864, valid auc: 91.72%
+2023-06-07 16:45:23,011 - my_logger - INFO - epoch 21, second phase train loss: 0.7831
+2023-06-07 16:45:23,013 - my_logger - INFO - epoch 22, second phase train loss: 0.7710
+2023-06-07 16:45:23,015 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,015 - my_logger - INFO - epoch 22, valid loss: 0.7623, valid auc: 91.72%
+2023-06-07 16:45:23,016 - my_logger - INFO - epoch 23, second phase train loss: 0.7595
+2023-06-07 16:45:23,017 - my_logger - INFO - epoch 24, second phase train loss: 0.7484
+2023-06-07 16:45:23,019 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,019 - my_logger - INFO - epoch 24, valid loss: 0.7405, valid auc: 91.72%
+2023-06-07 16:45:23,020 - my_logger - INFO - epoch 25, second phase train loss: 0.7380
+2023-06-07 16:45:23,022 - my_logger - INFO - epoch 26, second phase train loss: 0.7282
+2023-06-07 16:45:23,024 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,024 - my_logger - INFO - epoch 26, valid loss: 0.7212, valid auc: 91.72%
+2023-06-07 16:45:23,025 - my_logger - INFO - epoch 27, second phase train loss: 0.7190
+2023-06-07 16:45:23,026 - my_logger - INFO - epoch 28, second phase train loss: 0.7105
+2023-06-07 16:45:23,028 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,028 - my_logger - INFO - epoch 28, valid loss: 0.7045, valid auc: 91.72%
+2023-06-07 16:45:23,030 - my_logger - INFO - epoch 29, second phase train loss: 0.7027
+2023-06-07 16:45:23,031 - my_logger - INFO - epoch 30, second phase train loss: 0.6956
+2023-06-07 16:45:23,033 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,033 - my_logger - INFO - epoch 30, valid loss: 0.6907, valid auc: 91.72%
+2023-06-07 16:45:23,034 - my_logger - INFO - epoch 31, second phase train loss: 0.6892
+2023-06-07 16:45:23,035 - my_logger - INFO - epoch 32, second phase train loss: 0.6835
+2023-06-07 16:45:23,038 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,038 - my_logger - INFO - epoch 32, valid loss: 0.6797, valid auc: 91.72%
+2023-06-07 16:45:23,039 - my_logger - INFO - epoch 33, second phase train loss: 0.6784
+2023-06-07 16:45:23,041 - my_logger - INFO - epoch 34, second phase train loss: 0.6741
+2023-06-07 16:45:23,043 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,043 - my_logger - INFO - epoch 34, valid loss: 0.6714, valid auc: 91.72%
+2023-06-07 16:45:23,044 - my_logger - INFO - epoch 35, second phase train loss: 0.6704
+2023-06-07 16:45:23,046 - my_logger - INFO - epoch 36, second phase train loss: 0.6673
+2023-06-07 16:45:23,048 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,048 - my_logger - INFO - epoch 36, valid loss: 0.6655, valid auc: 91.72%
+2023-06-07 16:45:23,049 - my_logger - INFO - epoch 37, second phase train loss: 0.6648
+2023-06-07 16:45:23,050 - my_logger - INFO - epoch 38, second phase train loss: 0.6627
+2023-06-07 16:45:23,052 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,052 - my_logger - INFO - epoch 38, valid loss: 0.6617, valid auc: 91.72%
+2023-06-07 16:45:23,053 - my_logger - INFO - epoch 39, second phase train loss: 0.6611
+2023-06-07 16:45:23,054 - my_logger - INFO - epoch 40, second phase train loss: 0.6598
+2023-06-07 16:45:23,056 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,056 - my_logger - INFO - epoch 40, valid loss: 0.6593, valid auc: 91.72%
+2023-06-07 16:45:23,057 - my_logger - INFO - epoch 41, second phase train loss: 0.6589
+2023-06-07 16:45:23,059 - my_logger - INFO - epoch 42, second phase train loss: 0.6581
+2023-06-07 16:45:23,061 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,061 - my_logger - INFO - epoch 42, valid loss: 0.6578, valid auc: 91.72%
+2023-06-07 16:45:23,062 - my_logger - INFO - epoch 43, second phase train loss: 0.6574
+2023-06-07 16:45:23,064 - my_logger - INFO - epoch 44, second phase train loss: 0.6568
+2023-06-07 16:45:23,066 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,066 - my_logger - INFO - epoch 44, valid loss: 0.6565, valid auc: 91.72%
+2023-06-07 16:45:23,067 - my_logger - INFO - epoch 45, second phase train loss: 0.6561
+2023-06-07 16:45:23,068 - my_logger - INFO - epoch 46, second phase train loss: 0.6555
+2023-06-07 16:45:23,070 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,070 - my_logger - INFO - epoch 46, valid loss: 0.6550, valid auc: 91.72%
+2023-06-07 16:45:23,071 - my_logger - INFO - epoch 47, second phase train loss: 0.6547
+2023-06-07 16:45:23,072 - my_logger - INFO - epoch 48, second phase train loss: 0.6538
+2023-06-07 16:45:23,075 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,075 - my_logger - INFO - epoch 48, valid loss: 0.6531, valid auc: 91.72%
+2023-06-07 16:45:23,076 - my_logger - INFO - epoch 49, second phase train loss: 0.6528
+2023-06-07 16:45:23,077 - my_logger - INFO - epoch 50, second phase train loss: 0.6516
+2023-06-07 16:45:23,079 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,079 - my_logger - INFO - epoch 50, valid loss: 0.6507, valid auc: 91.72%
+2023-06-07 16:45:23,080 - my_logger - INFO - epoch 51, second phase train loss: 0.6504
+2023-06-07 16:45:23,082 - my_logger - INFO - epoch 52, second phase train loss: 0.6490
+2023-06-07 16:45:23,084 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,084 - my_logger - INFO - epoch 52, valid loss: 0.6478, valid auc: 91.72%
+2023-06-07 16:45:23,085 - my_logger - INFO - epoch 53, second phase train loss: 0.6475
+2023-06-07 16:45:23,086 - my_logger - INFO - epoch 54, second phase train loss: 0.6459
+2023-06-07 16:45:23,088 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,088 - my_logger - INFO - epoch 54, valid loss: 0.6446, valid auc: 91.72%
+2023-06-07 16:45:23,090 - my_logger - INFO - epoch 55, second phase train loss: 0.6443
+2023-06-07 16:45:23,091 - my_logger - INFO - epoch 56, second phase train loss: 0.6426
+2023-06-07 16:45:23,094 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,094 - my_logger - INFO - epoch 56, valid loss: 0.6413, valid auc: 91.72%
+2023-06-07 16:45:23,095 - my_logger - INFO - epoch 57, second phase train loss: 0.6410
+2023-06-07 16:45:23,096 - my_logger - INFO - epoch 58, second phase train loss: 0.6393
+2023-06-07 16:45:23,098 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,099 - my_logger - INFO - epoch 58, valid loss: 0.6381, valid auc: 91.72%
+2023-06-07 16:45:23,100 - my_logger - INFO - epoch 59, second phase train loss: 0.6376
+2023-06-07 16:45:23,101 - my_logger - INFO - epoch 60, second phase train loss: 0.6360
+2023-06-07 16:45:23,103 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,104 - my_logger - INFO - epoch 60, valid loss: 0.6350, valid auc: 91.72%
+2023-06-07 16:45:23,105 - my_logger - INFO - epoch 61, second phase train loss: 0.6345
+2023-06-07 16:45:23,106 - my_logger - INFO - epoch 62, second phase train loss: 0.6329
+2023-06-07 16:45:23,109 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,109 - my_logger - INFO - epoch 62, valid loss: 0.6320, valid auc: 91.72%
+2023-06-07 16:45:23,110 - my_logger - INFO - epoch 63, second phase train loss: 0.6314
+2023-06-07 16:45:23,111 - my_logger - INFO - epoch 64, second phase train loss: 0.6300
+2023-06-07 16:45:23,113 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,114 - my_logger - INFO - epoch 64, valid loss: 0.6292, valid auc: 91.72%
+2023-06-07 16:45:23,115 - my_logger - INFO - epoch 65, second phase train loss: 0.6286
+2023-06-07 16:45:23,116 - my_logger - INFO - epoch 66, second phase train loss: 0.6273
+2023-06-07 16:45:23,118 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,118 - my_logger - INFO - epoch 66, valid loss: 0.6266, valid auc: 91.72%
+2023-06-07 16:45:23,119 - my_logger - INFO - epoch 67, second phase train loss: 0.6259
+2023-06-07 16:45:23,121 - my_logger - INFO - epoch 68, second phase train loss: 0.6246
+2023-06-07 16:45:23,123 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,123 - my_logger - INFO - epoch 68, valid loss: 0.6241, valid auc: 91.72%
+2023-06-07 16:45:23,124 - my_logger - INFO - epoch 69, second phase train loss: 0.6234
+2023-06-07 16:45:23,125 - my_logger - INFO - epoch 70, second phase train loss: 0.6221
+2023-06-07 16:45:23,127 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,128 - my_logger - INFO - epoch 70, valid loss: 0.6217, valid auc: 91.72%
+2023-06-07 16:45:23,129 - my_logger - INFO - epoch 71, second phase train loss: 0.6209
+2023-06-07 16:45:23,130 - my_logger - INFO - epoch 72, second phase train loss: 0.6196
+2023-06-07 16:45:23,132 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,132 - my_logger - INFO - epoch 72, valid loss: 0.6192, valid auc: 91.72%
+2023-06-07 16:45:23,133 - my_logger - INFO - epoch 73, second phase train loss: 0.6184
+2023-06-07 16:45:23,135 - my_logger - INFO - epoch 74, second phase train loss: 0.6172
+2023-06-07 16:45:23,137 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,137 - my_logger - INFO - epoch 74, valid loss: 0.6168, valid auc: 91.72%
+2023-06-07 16:45:23,138 - my_logger - INFO - epoch 75, second phase train loss: 0.6159
+2023-06-07 16:45:23,139 - my_logger - INFO - epoch 76, second phase train loss: 0.6147
+2023-06-07 16:45:23,141 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,141 - my_logger - INFO - epoch 76, valid loss: 0.6143, valid auc: 91.72%
+2023-06-07 16:45:23,142 - my_logger - INFO - epoch 77, second phase train loss: 0.6135
+2023-06-07 16:45:23,144 - my_logger - INFO - epoch 78, second phase train loss: 0.6122
+2023-06-07 16:45:23,146 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,146 - my_logger - INFO - epoch 78, valid loss: 0.6119, valid auc: 91.72%
+2023-06-07 16:45:23,147 - my_logger - INFO - epoch 79, second phase train loss: 0.6110
+2023-06-07 16:45:23,148 - my_logger - INFO - epoch 80, second phase train loss: 0.6097
+2023-06-07 16:45:23,150 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,150 - my_logger - INFO - epoch 80, valid loss: 0.6094, valid auc: 91.72%
+2023-06-07 16:45:23,151 - my_logger - INFO - epoch 81, second phase train loss: 0.6084
+2023-06-07 16:45:23,152 - my_logger - INFO - epoch 82, second phase train loss: 0.6072
+2023-06-07 16:45:23,155 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,155 - my_logger - INFO - epoch 82, valid loss: 0.6068, valid auc: 91.72%
+2023-06-07 16:45:23,156 - my_logger - INFO - epoch 83, second phase train loss: 0.6059
+2023-06-07 16:45:23,157 - my_logger - INFO - epoch 84, second phase train loss: 0.6046
+2023-06-07 16:45:23,159 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,160 - my_logger - INFO - epoch 84, valid loss: 0.6043, valid auc: 91.72%
+2023-06-07 16:45:23,161 - my_logger - INFO - epoch 85, second phase train loss: 0.6034
+2023-06-07 16:45:23,162 - my_logger - INFO - epoch 86, second phase train loss: 0.6021
+2023-06-07 16:45:23,164 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,164 - my_logger - INFO - epoch 86, valid loss: 0.6018, valid auc: 91.72%
+2023-06-07 16:45:23,165 - my_logger - INFO - epoch 87, second phase train loss: 0.6009
+2023-06-07 16:45:23,166 - my_logger - INFO - epoch 88, second phase train loss: 0.5996
+2023-06-07 16:45:23,168 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,168 - my_logger - INFO - epoch 88, valid loss: 0.5993, valid auc: 91.72%
+2023-06-07 16:45:23,169 - my_logger - INFO - epoch 89, second phase train loss: 0.5984
+2023-06-07 16:45:23,171 - my_logger - INFO - epoch 90, second phase train loss: 0.5971
+2023-06-07 16:45:23,173 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,173 - my_logger - INFO - epoch 90, valid loss: 0.5968, valid auc: 91.72%
+2023-06-07 16:45:23,174 - my_logger - INFO - epoch 91, second phase train loss: 0.5959
+2023-06-07 16:45:23,175 - my_logger - INFO - epoch 92, second phase train loss: 0.5947
+2023-06-07 16:45:23,177 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,177 - my_logger - INFO - epoch 92, valid loss: 0.5943, valid auc: 91.72%
+2023-06-07 16:45:23,178 - my_logger - INFO - epoch 93, second phase train loss: 0.5934
+2023-06-07 16:45:23,179 - my_logger - INFO - epoch 94, second phase train loss: 0.5922
+2023-06-07 16:45:23,181 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,181 - my_logger - INFO - epoch 94, valid loss: 0.5919, valid auc: 91.72%
+2023-06-07 16:45:23,182 - my_logger - INFO - epoch 95, second phase train loss: 0.5910
+2023-06-07 16:45:23,183 - my_logger - INFO - epoch 96, second phase train loss: 0.5898
+2023-06-07 16:45:23,186 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,186 - my_logger - INFO - epoch 96, valid loss: 0.5895, valid auc: 91.72%
+2023-06-07 16:45:23,187 - my_logger - INFO - epoch 97, second phase train loss: 0.5886
+2023-06-07 16:45:23,188 - my_logger - INFO - epoch 98, second phase train loss: 0.5874
+2023-06-07 16:45:23,190 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,190 - my_logger - INFO - epoch 98, valid loss: 0.5871, valid auc: 91.72%
+2023-06-07 16:45:23,191 - my_logger - INFO - epoch 99, second phase train loss: 0.5862
+2023-06-07 16:45:23,192 - my_logger - INFO - epoch 100, second phase train loss: 0.5850
+2023-06-07 16:45:23,194 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,194 - my_logger - INFO - epoch 100, valid loss: 0.5847, valid auc: 91.72%
+2023-06-07 16:45:23,196 - my_logger - INFO - epoch 101, second phase train loss: 0.5838
+2023-06-07 16:45:23,197 - my_logger - INFO - epoch 102, second phase train loss: 0.5826
+2023-06-07 16:45:23,199 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,199 - my_logger - INFO - epoch 102, valid loss: 0.5823, valid auc: 91.72%
+2023-06-07 16:45:23,200 - my_logger - INFO - epoch 103, second phase train loss: 0.5814
+2023-06-07 16:45:23,201 - my_logger - INFO - epoch 104, second phase train loss: 0.5802
+2023-06-07 16:45:23,203 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,203 - my_logger - INFO - epoch 104, valid loss: 0.5799, valid auc: 91.72%
+2023-06-07 16:45:23,204 - my_logger - INFO - epoch 105, second phase train loss: 0.5790
+2023-06-07 16:45:23,206 - my_logger - INFO - epoch 106, second phase train loss: 0.5778
+2023-06-07 16:45:23,208 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,208 - my_logger - INFO - epoch 106, valid loss: 0.5776, valid auc: 91.72%
+2023-06-07 16:45:23,209 - my_logger - INFO - epoch 107, second phase train loss: 0.5767
+2023-06-07 16:45:23,210 - my_logger - INFO - epoch 108, second phase train loss: 0.5755
+2023-06-07 16:45:23,212 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,212 - my_logger - INFO - epoch 108, valid loss: 0.5753, valid auc: 91.72%
+2023-06-07 16:45:23,213 - my_logger - INFO - epoch 109, second phase train loss: 0.5743
+2023-06-07 16:45:23,215 - my_logger - INFO - epoch 110, second phase train loss: 0.5731
+2023-06-07 16:45:23,217 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,217 - my_logger - INFO - epoch 110, valid loss: 0.5729, valid auc: 91.72%
+2023-06-07 16:45:23,218 - my_logger - INFO - epoch 111, second phase train loss: 0.5720
+2023-06-07 16:45:23,219 - my_logger - INFO - epoch 112, second phase train loss: 0.5708
+2023-06-07 16:45:23,221 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,221 - my_logger - INFO - epoch 112, valid loss: 0.5706, valid auc: 91.72%
+2023-06-07 16:45:23,222 - my_logger - INFO - epoch 113, second phase train loss: 0.5697
+2023-06-07 16:45:23,223 - my_logger - INFO - epoch 114, second phase train loss: 0.5685
+2023-06-07 16:45:23,225 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,225 - my_logger - INFO - epoch 114, valid loss: 0.5684, valid auc: 91.72%
+2023-06-07 16:45:23,227 - my_logger - INFO - epoch 115, second phase train loss: 0.5673
+2023-06-07 16:45:23,228 - my_logger - INFO - epoch 116, second phase train loss: 0.5662
+2023-06-07 16:45:23,230 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,230 - my_logger - INFO - epoch 116, valid loss: 0.5661, valid auc: 91.72%
+2023-06-07 16:45:23,231 - my_logger - INFO - epoch 117, second phase train loss: 0.5651
+2023-06-07 16:45:23,232 - my_logger - INFO - epoch 118, second phase train loss: 0.5639
+2023-06-07 16:45:23,234 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,234 - my_logger - INFO - epoch 118, valid loss: 0.5638, valid auc: 91.72%
+2023-06-07 16:45:23,235 - my_logger - INFO - epoch 119, second phase train loss: 0.5628
+2023-06-07 16:45:23,237 - my_logger - INFO - epoch 120, second phase train loss: 0.5616
+2023-06-07 16:45:23,239 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,239 - my_logger - INFO - epoch 120, valid loss: 0.5616, valid auc: 91.72%
+2023-06-07 16:45:23,240 - my_logger - INFO - epoch 121, second phase train loss: 0.5605
+2023-06-07 16:45:23,241 - my_logger - INFO - epoch 122, second phase train loss: 0.5594
+2023-06-07 16:45:23,243 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,243 - my_logger - INFO - epoch 122, valid loss: 0.5593, valid auc: 91.72%
+2023-06-07 16:45:23,244 - my_logger - INFO - epoch 123, second phase train loss: 0.5583
+2023-06-07 16:45:23,246 - my_logger - INFO - epoch 124, second phase train loss: 0.5572
+2023-06-07 16:45:23,248 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,248 - my_logger - INFO - epoch 124, valid loss: 0.5571, valid auc: 91.72%
+2023-06-07 16:45:23,249 - my_logger - INFO - epoch 125, second phase train loss: 0.5560
+2023-06-07 16:45:23,250 - my_logger - INFO - epoch 126, second phase train loss: 0.5549
+2023-06-07 16:45:23,252 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,253 - my_logger - INFO - epoch 126, valid loss: 0.5549, valid auc: 91.72%
+2023-06-07 16:45:23,254 - my_logger - INFO - epoch 127, second phase train loss: 0.5538
+2023-06-07 16:45:23,255 - my_logger - INFO - epoch 128, second phase train loss: 0.5527
+2023-06-07 16:45:23,257 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,257 - my_logger - INFO - epoch 128, valid loss: 0.5528, valid auc: 91.72%
+2023-06-07 16:45:23,259 - my_logger - INFO - epoch 129, second phase train loss: 0.5516
+2023-06-07 16:45:23,260 - my_logger - INFO - epoch 130, second phase train loss: 0.5505
+2023-06-07 16:45:23,262 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,262 - my_logger - INFO - epoch 130, valid loss: 0.5506, valid auc: 91.72%
+2023-06-07 16:45:23,263 - my_logger - INFO - epoch 131, second phase train loss: 0.5494
+2023-06-07 16:45:23,265 - my_logger - INFO - epoch 132, second phase train loss: 0.5484
+2023-06-07 16:45:23,267 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,267 - my_logger - INFO - epoch 132, valid loss: 0.5484, valid auc: 91.72%
+2023-06-07 16:45:23,268 - my_logger - INFO - epoch 133, second phase train loss: 0.5473
+2023-06-07 16:45:23,270 - my_logger - INFO - epoch 134, second phase train loss: 0.5462
+2023-06-07 16:45:23,272 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,272 - my_logger - INFO - epoch 134, valid loss: 0.5463, valid auc: 91.72%
+2023-06-07 16:45:23,273 - my_logger - INFO - epoch 135, second phase train loss: 0.5451
+2023-06-07 16:45:23,275 - my_logger - INFO - epoch 136, second phase train loss: 0.5441
+2023-06-07 16:45:23,277 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,277 - my_logger - INFO - epoch 136, valid loss: 0.5442, valid auc: 91.72%
+2023-06-07 16:45:23,278 - my_logger - INFO - epoch 137, second phase train loss: 0.5430
+2023-06-07 16:45:23,280 - my_logger - INFO - epoch 138, second phase train loss: 0.5419
+2023-06-07 16:45:23,282 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,282 - my_logger - INFO - epoch 138, valid loss: 0.5421, valid auc: 91.72%
+2023-06-07 16:45:23,283 - my_logger - INFO - epoch 139, second phase train loss: 0.5409
+2023-06-07 16:45:23,284 - my_logger - INFO - epoch 140, second phase train loss: 0.5398
+2023-06-07 16:45:23,286 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,286 - my_logger - INFO - epoch 140, valid loss: 0.5400, valid auc: 91.72%
+2023-06-07 16:45:23,287 - my_logger - INFO - epoch 141, second phase train loss: 0.5388
+2023-06-07 16:45:23,288 - my_logger - INFO - epoch 142, second phase train loss: 0.5377
+2023-06-07 16:45:23,290 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,291 - my_logger - INFO - epoch 142, valid loss: 0.5379, valid auc: 91.72%
+2023-06-07 16:45:23,292 - my_logger - INFO - epoch 143, second phase train loss: 0.5367
+2023-06-07 16:45:23,293 - my_logger - INFO - epoch 144, second phase train loss: 0.5357
+2023-06-07 16:45:23,295 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,295 - my_logger - INFO - epoch 144, valid loss: 0.5358, valid auc: 91.72%
+2023-06-07 16:45:23,296 - my_logger - INFO - epoch 145, second phase train loss: 0.5346
+2023-06-07 16:45:23,297 - my_logger - INFO - epoch 146, second phase train loss: 0.5336
+2023-06-07 16:45:23,299 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,299 - my_logger - INFO - epoch 146, valid loss: 0.5338, valid auc: 91.72%
+2023-06-07 16:45:23,300 - my_logger - INFO - epoch 147, second phase train loss: 0.5326
+2023-06-07 16:45:23,302 - my_logger - INFO - epoch 148, second phase train loss: 0.5316
+2023-06-07 16:45:23,304 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,304 - my_logger - INFO - epoch 148, valid loss: 0.5318, valid auc: 91.72%
+2023-06-07 16:45:23,305 - my_logger - INFO - epoch 149, second phase train loss: 0.5305
+2023-06-07 16:45:23,306 - my_logger - INFO - epoch 150, second phase train loss: 0.5295
+2023-06-07 16:45:23,308 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,308 - my_logger - INFO - epoch 150, valid loss: 0.5298, valid auc: 91.72%
+2023-06-07 16:45:23,309 - my_logger - INFO - epoch 151, second phase train loss: 0.5285
+2023-06-07 16:45:23,311 - my_logger - INFO - epoch 152, second phase train loss: 0.5275
+2023-06-07 16:45:23,313 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,313 - my_logger - INFO - epoch 152, valid loss: 0.5278, valid auc: 91.72%
+2023-06-07 16:45:23,314 - my_logger - INFO - epoch 153, second phase train loss: 0.5265
+2023-06-07 16:45:23,316 - my_logger - INFO - epoch 154, second phase train loss: 0.5255
+2023-06-07 16:45:23,318 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,318 - my_logger - INFO - epoch 154, valid loss: 0.5258, valid auc: 91.72%
+2023-06-07 16:45:23,319 - my_logger - INFO - epoch 155, second phase train loss: 0.5245
+2023-06-07 16:45:23,320 - my_logger - INFO - epoch 156, second phase train loss: 0.5235
+2023-06-07 16:45:23,323 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,323 - my_logger - INFO - epoch 156, valid loss: 0.5238, valid auc: 91.72%
+2023-06-07 16:45:23,324 - my_logger - INFO - epoch 157, second phase train loss: 0.5226
+2023-06-07 16:45:23,325 - my_logger - INFO - epoch 158, second phase train loss: 0.5216
+2023-06-07 16:45:23,327 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,328 - my_logger - INFO - epoch 158, valid loss: 0.5219, valid auc: 91.72%
+2023-06-07 16:45:23,329 - my_logger - INFO - epoch 159, second phase train loss: 0.5206
+2023-06-07 16:45:23,330 - my_logger - INFO - epoch 160, second phase train loss: 0.5196
+2023-06-07 16:45:23,332 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,333 - my_logger - INFO - epoch 160, valid loss: 0.5200, valid auc: 91.72%
+2023-06-07 16:45:23,334 - my_logger - INFO - epoch 161, second phase train loss: 0.5187
+2023-06-07 16:45:23,335 - my_logger - INFO - epoch 162, second phase train loss: 0.5177
+2023-06-07 16:45:23,337 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,338 - my_logger - INFO - epoch 162, valid loss: 0.5181, valid auc: 91.72%
+2023-06-07 16:45:23,339 - my_logger - INFO - epoch 163, second phase train loss: 0.5167
+2023-06-07 16:45:23,340 - my_logger - INFO - epoch 164, second phase train loss: 0.5158
+2023-06-07 16:45:23,342 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,342 - my_logger - INFO - epoch 164, valid loss: 0.5162, valid auc: 91.72%
+2023-06-07 16:45:23,344 - my_logger - INFO - epoch 165, second phase train loss: 0.5148
+2023-06-07 16:45:23,345 - my_logger - INFO - epoch 166, second phase train loss: 0.5139
+2023-06-07 16:45:23,347 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,347 - my_logger - INFO - epoch 166, valid loss: 0.5143, valid auc: 91.72%
+2023-06-07 16:45:23,348 - my_logger - INFO - epoch 167, second phase train loss: 0.5129
+2023-06-07 16:45:23,350 - my_logger - INFO - epoch 168, second phase train loss: 0.5120
+2023-06-07 16:45:23,352 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,352 - my_logger - INFO - epoch 168, valid loss: 0.5124, valid auc: 91.72%
+2023-06-07 16:45:23,353 - my_logger - INFO - epoch 169, second phase train loss: 0.5111
+2023-06-07 16:45:23,355 - my_logger - INFO - epoch 170, second phase train loss: 0.5101
+2023-06-07 16:45:23,357 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,357 - my_logger - INFO - epoch 170, valid loss: 0.5106, valid auc: 91.72%
+2023-06-07 16:45:23,358 - my_logger - INFO - epoch 171, second phase train loss: 0.5092
+2023-06-07 16:45:23,360 - my_logger - INFO - epoch 172, second phase train loss: 0.5083
+2023-06-07 16:45:23,362 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,362 - my_logger - INFO - epoch 172, valid loss: 0.5088, valid auc: 91.72%
+2023-06-07 16:45:23,363 - my_logger - INFO - epoch 173, second phase train loss: 0.5074
+2023-06-07 16:45:23,364 - my_logger - INFO - epoch 174, second phase train loss: 0.5065
+2023-06-07 16:45:23,366 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,366 - my_logger - INFO - epoch 174, valid loss: 0.5070, valid auc: 91.72%
+2023-06-07 16:45:23,367 - my_logger - INFO - epoch 175, second phase train loss: 0.5056
+2023-06-07 16:45:23,368 - my_logger - INFO - epoch 176, second phase train loss: 0.5047
+2023-06-07 16:45:23,370 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,370 - my_logger - INFO - epoch 176, valid loss: 0.5052, valid auc: 91.72%
+2023-06-07 16:45:23,371 - my_logger - INFO - epoch 177, second phase train loss: 0.5038
+2023-06-07 16:45:23,373 - my_logger - INFO - epoch 178, second phase train loss: 0.5029
+2023-06-07 16:45:23,375 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,375 - my_logger - INFO - epoch 178, valid loss: 0.5034, valid auc: 91.72%
+2023-06-07 16:45:23,376 - my_logger - INFO - epoch 179, second phase train loss: 0.5020
+2023-06-07 16:45:23,377 - my_logger - INFO - epoch 180, second phase train loss: 0.5011
+2023-06-07 16:45:23,379 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,379 - my_logger - INFO - epoch 180, valid loss: 0.5016, valid auc: 91.72%
+2023-06-07 16:45:23,380 - my_logger - INFO - epoch 181, second phase train loss: 0.5002
+2023-06-07 16:45:23,381 - my_logger - INFO - epoch 182, second phase train loss: 0.4993
+2023-06-07 16:45:23,383 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,383 - my_logger - INFO - epoch 182, valid loss: 0.4999, valid auc: 91.72%
+2023-06-07 16:45:23,384 - my_logger - INFO - epoch 183, second phase train loss: 0.4984
+2023-06-07 16:45:23,386 - my_logger - INFO - epoch 184, second phase train loss: 0.4976
+2023-06-07 16:45:23,388 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,388 - my_logger - INFO - epoch 184, valid loss: 0.4981, valid auc: 91.72%
+2023-06-07 16:45:23,389 - my_logger - INFO - epoch 185, second phase train loss: 0.4967
+2023-06-07 16:45:23,390 - my_logger - INFO - epoch 186, second phase train loss: 0.4958
+2023-06-07 16:45:23,392 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,392 - my_logger - INFO - epoch 186, valid loss: 0.4964, valid auc: 91.72%
+2023-06-07 16:45:23,393 - my_logger - INFO - epoch 187, second phase train loss: 0.4950
+2023-06-07 16:45:23,395 - my_logger - INFO - epoch 188, second phase train loss: 0.4941
+2023-06-07 16:45:23,397 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,397 - my_logger - INFO - epoch 188, valid loss: 0.4947, valid auc: 91.72%
+2023-06-07 16:45:23,398 - my_logger - INFO - epoch 189, second phase train loss: 0.4933
+2023-06-07 16:45:23,399 - my_logger - INFO - epoch 190, second phase train loss: 0.4924
+2023-06-07 16:45:23,401 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,401 - my_logger - INFO - epoch 190, valid loss: 0.4930, valid auc: 91.72%
+2023-06-07 16:45:23,402 - my_logger - INFO - epoch 191, second phase train loss: 0.4916
+2023-06-07 16:45:23,403 - my_logger - INFO - epoch 192, second phase train loss: 0.4907
+2023-06-07 16:45:23,405 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,405 - my_logger - INFO - epoch 192, valid loss: 0.4914, valid auc: 91.72%
+2023-06-07 16:45:23,406 - my_logger - INFO - epoch 193, second phase train loss: 0.4899
+2023-06-07 16:45:23,408 - my_logger - INFO - epoch 194, second phase train loss: 0.4890
+2023-06-07 16:45:23,410 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,410 - my_logger - INFO - epoch 194, valid loss: 0.4897, valid auc: 91.72%
+2023-06-07 16:45:23,411 - my_logger - INFO - epoch 195, second phase train loss: 0.4882
+2023-06-07 16:45:23,412 - my_logger - INFO - epoch 196, second phase train loss: 0.4874
+2023-06-07 16:45:23,414 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,414 - my_logger - INFO - epoch 196, valid loss: 0.4881, valid auc: 91.72%
+2023-06-07 16:45:23,415 - my_logger - INFO - epoch 197, second phase train loss: 0.4866
+2023-06-07 16:45:23,416 - my_logger - INFO - epoch 198, second phase train loss: 0.4858
+2023-06-07 16:45:23,418 - my_logger - INFO - evaluating......
+2023-06-07 16:45:23,418 - my_logger - INFO - epoch 198, valid loss: 0.4865, valid auc: 91.72%
+2023-06-07 16:45:23,419 - my_logger - INFO - epoch 199, second phase train loss: 0.4849
+2023-06-07 16:45:23,420 - my_logger - INFO - total train time used: 27.0484s
+2023-06-07 16:45:23,420 - my_logger - INFO - testing......
+2023-06-07 16:45:23,422 - my_logger - INFO - test auc: 92.10%
