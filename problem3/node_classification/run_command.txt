@@ -1,0 +1,15 @@
+python main_gnn.py -model gcn -device cuda:0 -lr 0.01 -hid 16 -nlayer 3 -dropout 0.0 -eval 2 -epoch 100
+
+python main_gnn.py -model graphsage -device cuda:0 -lr 0.01 -hid 64 -nlayer 2 -dropout 0.0 -eval 2 -epoch 100
+
+python main_gnn.py -model mlp -device cuda:0 -lr 0.01 -hid 16 -nlayer 2 -dropout 0.0 -eval 2 -epoch 100
+
+python main_gnn.py -model gat -device cuda:0 -lr 0.01 -hid 16 -nlayer 2 -head 3 -dropout 0.0 -eval 2 -epoch 100
+
+python main_gnn.py -model gin -device cuda:0 -lr 0.01 -hid 16 -nlayer 2 -dropout 0.0 -eval 2 -epoch 100
+
+python main_gnn.py -model sgc -device cuda:0 -lr 0.01  -k 3 -eval 2 -epoch 100
+
+python main_deepwalk.py -model deepwalk -lr 0.01 -emb 128 -length 40 -window 5 -neg_size 5 -epoch 20
+
+python main_deepwalk.py -model node2vec -lr 0.01 -emb 128 -length 40 -window 5 -neg_size 5 -p 0.5 -q 0.5 -epoch 20
