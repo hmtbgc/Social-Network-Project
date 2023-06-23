@@ -180,16 +180,16 @@ if __name__ == "__main__":
     train_g = dgl.remove_edges(g, torch.tensor(val_test_eids))
     train_g = dgl.add_self_loop(train_g)
     
-    model = DeepWalk(g, emb_dim=args.emb, walk_length=args.length, window_size=args.window, negative_size=args.neg_size)
+    model = DeepWalk(train_g, emb_dim=args.emb, walk_length=args.length, window_size=args.window, negative_size=args.neg_size)
     
     
     
     if (args.model == "deepwalk"):
-        dataloader = DataLoader(torch.arange(g.num_nodes()), batch_size=128,
+        dataloader = DataLoader(torch.arange(train_g.num_nodes()), batch_size=128,
                             shuffle=True, collate_fn=model.sample)
     elif (args.model == "node2vec"):
-        dataloader = DataLoader(torch.arange(g.num_nodes()), batch_size=128,
-                    shuffle=True, collate_fn=lambda indices : dgl.sampling.node2vec_random_walk(g, nodes=indices, p=args.p, q=args.q, walk_length=args.length-1))
+        dataloader = DataLoader(torch.arange(train_g.num_nodes()), batch_size=128,
+                    shuffle=True, collate_fn=lambda indices : dgl.sampling.node2vec_random_walk(train_g, nodes=indices, p=args.p, q=args.q, walk_length=args.length-1))
     else:
         raise ValueError("model must be deepwalk or node2vec!")
         
